@@ -1,0 +1,200 @@
+@font-face {
+    font-family: 'Rethink Sans';
+    src: url('RethinkSans-Medium.woff2') format('woff2'),
+        url('RethinkSans-Medium.woff') format('woff'),
+        url('RethinkSans-Medium.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rethink Sans';
+    src: url('RethinkSans-SemiBoldItalic.woff2') format('woff2'),
+        url('RethinkSans-SemiBoldItalic.woff') format('woff'),
+        url('RethinkSans-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rethink Sans';
+    src: url('RethinkSans-BoldItalic.woff2') format('woff2'),
+        url('RethinkSans-BoldItalic.woff') format('woff'),
+        url('RethinkSans-BoldItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rethink Sans';
+    src: url('RethinkSans-Italic.woff2') format('woff2'),
+        url('RethinkSans-Italic.woff') format('woff'),
+        url('RethinkSans-Italic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rethink Sans';
+    src: url('RethinkSans-ExtraBoldItalic.woff2') format('woff2'),
+        url('RethinkSans-ExtraBoldItalic.woff') format('woff'),
+        url('RethinkSans-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rethink Sans';
+    src: url('RethinkSans-MediumItalic.woff2') format('woff2'),
+        url('RethinkSans-MediumItalic.woff') format('woff'),
+        url('RethinkSans-MediumItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rethink Sans';
+    src: url('RethinkSans-SemiBold.woff2') format('woff2'),
+        url('RethinkSans-SemiBold.woff') format('woff'),
+        url('RethinkSans-SemiBold.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rethink Sans';
+    src: url('RethinkSans-ExtraBold.woff2') format('woff2'),
+        url('RethinkSans-ExtraBold.woff') format('woff'),
+        url('RethinkSans-ExtraBold.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rethink Sans';
+    src: url('RethinkSans-Regular.woff2') format('woff2'),
+        url('RethinkSans-Regular.woff') format('woff'),
+        url('RethinkSans-Regular.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rethink Sans';
+    src: url('RethinkSans-Bold.woff2') format('woff2'),
+        url('RethinkSans-Bold.woff') format('woff'),
+        url('RethinkSans-Bold.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rethink Sans';
+    src: url('RethinkSans-SemiBold_1.woff2') format('woff2'),
+        url('RethinkSans-SemiBold_1.woff') format('woff'),
+        url('RethinkSans-SemiBold_1.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rethink Sans';
+    src: url('RethinkSans-Bold_1.woff2') format('woff2'),
+        url('RethinkSans-Bold_1.woff') format('woff'),
+        url('RethinkSans-Bold_1.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rethink Sans';
+    src: url('RethinkSans-SemiBoldItalic_1.woff2') format('woff2'),
+        url('RethinkSans-SemiBoldItalic_1.woff') format('woff'),
+        url('RethinkSans-SemiBoldItalic_1.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rethink Sans';
+    src: url('RethinkSans-Regular_1.woff2') format('woff2'),
+        url('RethinkSans-Regular_1.woff') format('woff'),
+        url('RethinkSans-Regular_1.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rethink Sans';
+    src: url('RethinkSans-Italic_1.woff2') format('woff2'),
+        url('RethinkSans-Italic_1.woff') format('woff'),
+        url('RethinkSans-Italic_1.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rethink Sans';
+    src: url('RethinkSans-BoldItalic_1.woff2') format('woff2'),
+        url('RethinkSans-BoldItalic_1.woff') format('woff'),
+        url('RethinkSans-BoldItalic_1.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rethink Sans';
+    src: url('RethinkSans-MediumItalic_1.woff2') format('woff2'),
+        url('RethinkSans-MediumItalic_1.woff') format('woff'),
+        url('RethinkSans-MediumItalic_1.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rethink Sans';
+    src: url('RethinkSans-ExtraBold_1.woff2') format('woff2'),
+        url('RethinkSans-ExtraBold_1.woff') format('woff'),
+        url('RethinkSans-ExtraBold_1.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rethink Sans';
+    src: url('RethinkSans-ExtraBoldItalic_1.woff2') format('woff2'),
+        url('RethinkSans-ExtraBoldItalic_1.woff') format('woff'),
+        url('RethinkSans-ExtraBoldItalic_1.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rethink Sans';
+    src: url('RethinkSans-Medium_1.woff2') format('woff2'),
+        url('RethinkSans-Medium_1.woff') format('woff'),
+        url('RethinkSans-Medium_1.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

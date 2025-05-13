@@ -1,0 +1,216 @@
+@import "tailwindcss";
+
+* {
+  font-family: 'Rethink Sans';
+}
+
+@font-face {
+  font-family: "Rethink Sans";
+  src: url("./fonts/RethinkSans-Medium.woff2") format("woff2"),
+    url("./fonts/RethinkSans-Medium.woff") format("woff"),
+    url("./fonts/RethinkSans-Medium.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rethink Sans";
+  src: url("./fonts/RethinkSans-SemiBoldItalic.woff2") format("woff2"),
+    url("./fonts/RethinkSans-SemiBoldItalic.woff") format("woff"),
+    url("./fonts/RethinkSans-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rethink Sans";
+  src: url("./fonts/RethinkSans-BoldItalic.woff2") format("woff2"),
+    url("./fonts/RethinkSans-BoldItalic.woff") format("woff"),
+    url("./fonts/RethinkSans-BoldItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rethink Sans";
+  src: url("./fonts/RethinkSans-Italic.woff2") format("woff2"),
+    url("./fonts/RethinkSans-Italic.woff") format("woff"),
+    url("./fonts/RethinkSans-Italic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rethink Sans";
+  src: url("./fonts/RethinkSans-ExtraBoldItalic.woff2") format("woff2"),
+    url("./fonts/RethinkSans-ExtraBoldItalic.woff") format("woff"),
+    url("./fonts/RethinkSans-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rethink Sans";
+  src: url("./fonts/RethinkSans-MediumItalic.woff2") format("woff2"),
+    url("./fonts/RethinkSans-MediumItalic.woff") format("woff"),
+    url("./fonts/RethinkSans-MediumItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rethink Sans";
+  src: url("./fonts/RethinkSans-SemiBold.woff2") format("woff2"),
+    url("./fonts/RethinkSans-SemiBold.woff") format("woff"),
+    url("./fonts/RethinkSans-SemiBold.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rethink Sans";
+  src: url("./fonts/RethinkSans-ExtraBold.woff2") format("woff2"),
+    url("./fonts/RethinkSans-ExtraBold.woff") format("woff"),
+    url("./fonts/RethinkSans-ExtraBold.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rethink Sans";
+  src: url("./fonts/RethinkSans-Regular.woff2") format("woff2"),
+    url("./fonts/RethinkSans-Regular.woff") format("woff"),
+    url("./fonts/RethinkSans-Regular.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rethink Sans";
+  src: url("./fonts/RethinkSans-Bold.woff2") format("woff2"),
+    url("./fonts/RethinkSans-Bold.woff") format("woff"),
+    url("./fonts/RethinkSans-Bold.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rethink Sans";
+  src: url("./fonts/RethinkSans-SemiBold_1.woff2") format("woff2"),
+    url("./fonts/RethinkSans-SemiBold_1.woff") format("woff"),
+    url("./fonts/RethinkSans-SemiBold_1.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rethink Sans";
+  src: url("./fonts/RethinkSans-Bold_1.woff2") format("woff2"),
+    url("./fonts/RethinkSans-Bold_1.woff") format("woff"),
+    url("./fonts/RethinkSans-Bold_1.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rethink Sans";
+  src: url("./fonts/RethinkSans-SemiBoldItalic_1.woff2") format("woff2"),
+    url("./fonts/RethinkSans-SemiBoldItalic_1.woff") format("woff"),
+    url("./fonts/RethinkSans-SemiBoldItalic_1.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rethink Sans";
+  src: url("./fonts/RethinkSans-Regular_1.woff2") format("woff2"),
+    url("./fonts/RethinkSans-Regular_1.woff") format("woff"),
+    url("./fonts/RethinkSans-Regular_1.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rethink Sans";
+  src: url("./fonts/RethinkSans-Italic_1.woff2") format("woff2"),
+    url("./fonts/RethinkSans-Italic_1.woff") format("woff"),
+    url("./fonts/RethinkSans-Italic_1.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rethink Sans";
+  src: url("./fonts/RethinkSans-BoldItalic_1.woff2") format("woff2"),
+    url("./fonts/RethinkSans-BoldItalic_1.woff") format("woff"),
+    url("./fonts/RethinkSans-BoldItalic_1.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rethink Sans";
+  src: url("./fonts/RethinkSans-MediumItalic_1.woff2") format("woff2"),
+    url("./fonts/RethinkSans-MediumItalic_1.woff") format("woff"),
+    url("./fonts/RethinkSans-MediumItalic_1.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rethink Sans";
+  src: url("./fonts/RethinkSans-ExtraBold_1.woff2") format("woff2"),
+    url("./fonts/RethinkSans-ExtraBold_1.woff") format("woff"),
+    url("./fonts/RethinkSans-ExtraBold_1.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rethink Sans";
+  src: url("./fonts/RethinkSans-ExtraBoldItalic_1.woff2") format("woff2"),
+    url("./fonts/RethinkSans-ExtraBoldItalic_1.woff") format("woff"),
+    url("./fonts/RethinkSans-ExtraBoldItalic_1.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rethink Sans";
+  src: url("./fonts/RethinkSans-Medium_1.woff2") format("woff2"),
+    url("./fonts/RethinkSans-Medium_1.woff") format("woff"),
+    url("./fonts/RethinkSans-Medium_1.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+.noisebg {
+  background: rgb(255, 234, 0);
+  background-image: url("https://grainy-gradients.vercel.app/noise.svg");
+}
+
+.noisebg-front {
+  background: rgb(236, 217, 8);
+  background-image: url("https://grainy-gradients.vercel.app/noise.svg");
+  filter: contrast(120%) brightness(1.01);
+}

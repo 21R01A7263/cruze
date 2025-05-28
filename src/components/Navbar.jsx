@@ -1,9 +1,27 @@
-import React from 'react'
+import { useAuth } from '../context/AuthContext';
+import { Link } from 'react-router-dom';
+import { FaSpotify } from "react-icons/fa";
 
 const Navbar = () => {
-  return (
-    <div className='border-2 w-full h-[20%]'>Navbar</div>
-  )
-}
+  const { tokenData, profile } = useAuth();
 
-export default Navbar
+  return (
+    <div className='w-full h-[20%] flex justify-between items-center px-8 border-b border-gray-700'>
+      <div className="flex items-center">
+        <FaSpotify size={32} className="text-[#3fc062] mr-3" />
+        <span className="font-bold text-2xl">Cruze</span>
+      </div>
+      
+      <div className="flex items-center space-x-6">
+        <Link to="/" className="font-medium">
+          Home
+        </Link>
+        <a href="#" className="font-medium">
+          About
+        </a>
+      </div>
+    </div>
+  );
+};
+
+export default Navbar;

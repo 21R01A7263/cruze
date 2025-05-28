@@ -1,5 +1,4 @@
 import Footer from "./Footer";
-import HomeCard from "./HomeCard";
 
 const Home = () => {
   const cover1 = "Harleys In Hawaii_track_cover";

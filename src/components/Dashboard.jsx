@@ -28,10 +28,10 @@ const Dashboard = () => {
         )}
       </div>
       
-      <div className="flex flex-wrap gap-4 p-4">
+      {/* <div className="flex flex-wrap gap-4 p-4">
         <HomeCard cover={cover1} genre={genre1} />
         <HomeCard cover={cover2} genre={genre2} />
-      </div>
+      </div> */}
     </div>
   )
 }

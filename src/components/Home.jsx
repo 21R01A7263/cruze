@@ -8,8 +8,7 @@ const Home = () => {
   return (
     <div className="w-full h-screen flex items-center justify-center noisebg">
       <div className="relative w-[85vw] h-[85vh] border-6 rounded-[64px] overflow-hidden border-white">
-        {/* <HomeCard cover={cover1} genre={genre1} />
-        <HomeCard cover={cover2} genre={genre2} /> */}
+        
         <Footer />
       </div>
     </div>
